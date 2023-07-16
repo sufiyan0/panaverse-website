@@ -8,14 +8,14 @@ import Instructor from './components/Instructor'
 
 export default function Home() {
   return (
-   <>
-  
-   <Header/>
-   <Hero/>
-   <Cards/>
-   <Aboutus/>
-    <Instructor/>
- 
-   </>
+    <>
+
+     
+      <Hero />
+      <Cards />
+      <Aboutus />
+      <Instructor />
+
+    </>
   )
 }

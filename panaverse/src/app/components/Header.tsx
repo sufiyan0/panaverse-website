@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import Image from 'next/image'
-import img from '../../../public/99120681.png'
+import img from '../../../public/logo.png'
 import menu from '../../../public/menu.svg'
 import close from '../../../public/close.svg'
 
