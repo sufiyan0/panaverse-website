@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import img from '../assets/logo2.webp'
+import img from '../assets/ambient.webp'
+
 
 
 const Aboutus = () => {

@@ -4,14 +4,17 @@ import { Button } from "./ui/button"
 
 const data = [
   {
+    id:1,
     heading: 'Web 3.0 & Mataverse',
     content: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers. Panaverse DAO is struggling to produce professionals.'
   },
   {
+    id:2,
     heading: 'Blockchain',
     content: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers. Panaverse DAO is struggling to produce professionals.'
   },
   {
+    id:3,
     heading: 'Typescript',
     content: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers. Panaverse DAO is struggling to produce professionals.'
   },
@@ -36,6 +39,7 @@ import {
   SelectValue,
 } from "./ui/select"
 
+
 const Cards = () => {
   return (
 
@@ -43,7 +47,7 @@ const Cards = () => {
 
       <div className="max-w-6xl flex flex-wrap items-center justify-center mx-auto ">
         {data.map(data => (
-          <div className="m-3 shadow-2xl">
+          <div className="m-3 shadow-2xl" key={data.id}>
 
             <Card className="w-[300px] sm:w-[350px]">
               <CardHeader>
@@ -60,7 +64,7 @@ const Cards = () => {
           </div>
         ))}
 
-
+           
       </div>
     </div>
 

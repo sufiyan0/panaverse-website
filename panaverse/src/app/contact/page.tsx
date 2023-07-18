@@ -1,4 +1,6 @@
+'use client'
 import React from 'react'
+
 
 const page = () => {
     return (
@@ -7,7 +9,6 @@ const page = () => {
                 <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                         <iframe width="100%" height="100%" className="absolute inset-0"  title="map"  scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14472.72905628416!2d67.0899931!3d24.9258601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f4861ee9213%3A0x6f1774a52a731111!2sPIAIC%20Secretariat!5e0!3m2!1sen!2s!4v1689602992779!5m2!1sen!2s" ></iframe>
-                        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14472.72905628416!2d67.0899931!3d24.9258601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f4861ee9213%3A0x6f1774a52a731111!2sPIAIC%20Secretariat!5e0!3m2!1sen!2s!4v1689602992779!5m2!1sen!2s" width="600" height="450"  loading="lazy" ></iframe> */}
                         
                        
                     </div>
@@ -30,6 +31,8 @@ const page = () => {
                         <p className="text-xs text-gray-500 mt-3"></p>
                     </div>
                 </div>
+
+               
             </section>
 
         </>
@@ -39,4 +42,3 @@ const page = () => {
 export default page
 
 
-// <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14472.72905628416!2d67.0899931!3d24.9258601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f4861ee9213%3A0x6f1774a52a731111!2sPIAIC%20Secretariat!5e0!3m2!1sen!2s!4v1689602992779!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
