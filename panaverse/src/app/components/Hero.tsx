@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import img from '../assets/logo2.webp'
 import img1 from '../assets/logo4.webp'
 import background from '../../../public/Two-users-interacting-with-each-other-and-the-Metaverse-using-virtual-reality-headsets.jpg'
@@ -22,7 +23,9 @@ const Hero = () => {
                         </h1>
                         <p className="mb-8 leading-relaxed max-w-xl">One Year Panaverse DAO Earn as you Learn Program. Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, and Ambient Computing/IoT Technologies</p>
                         <div className="flex justify-center">
-                            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">More Info</button>
+                            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hnover:bg-indigo-600 rounded text-lg">
+                            <Link href='./syllabus'>More Info</Link> 
+                            </button>
                         </div>
                     </div>
                     <div className=" lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -44,7 +47,9 @@ const Hero = () => {
                         </h1>
                         <p className=" mb-8 leading-relaxed max-w-xl">This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.</p>
                         <div className="flex justify-center">
-                            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Read More</button>
+                            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                            <Link href='./syllabus'>Read More </Link> 
+                                </button>
                         </div>
                     </div>
                 </div>

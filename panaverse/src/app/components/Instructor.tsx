@@ -1,36 +1,40 @@
 import React from 'react'
 import Image from 'next/image'
 import img from '../assets/logo2.webp'
-import img1 from '../../../public/sir zia.jpg'
+import zia from '../../../public/sir zia.jpg'
+import hira from '../assets/hira.jpeg'
+import adil from '../assets/adil.jpeg'
+import danial from '../assets/daniyaal.jpeg'
+import zeeshan from '../assets/zeeshan.jpeg'
 
 export const data = [
     {
         id: 1,
-        src: '../../../public/sir zia.jpg',
+        src: zia,
         heading: 'Zia Khan',
         text: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders'
     },
     {
         id: 2,
-        src: '/Zia.webp',
+        src: zeeshan,
         heading: 'Zeeshan Hanif',
         text: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders'
     },
     {
         id: 3,
-        src: '/Zia.webp',
+        src: danial,
         heading: 'Daniyal Nagori',
         text: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders'
     },
     {
         id: 4,
-        src: '/Zia.webp',
+        src: hira,
         heading: 'Hira Khan',
         text: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders'
     },
     {
         id: 5,
-        src: '/Zia.webp',
+        src: adil,
         heading: 'Adil Altaf',
         text: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders'
     },
@@ -49,7 +53,7 @@ const Instructor = () => {
 
                         <div className="p-4 lg:w-1/2">
                             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <Image width={100} height={100} alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={img1} />
+                                <Image width={100} height={100} alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={data.src} />
                                 <div className="flex-grow sm:pl-8">
                                     <h2 className="title-font font-medium text-lg text-gray-900">{data.heading}</h2>
                                     <p className="mb-4">{data.text}</p>

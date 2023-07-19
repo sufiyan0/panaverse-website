@@ -3,6 +3,7 @@ import Image from 'next/image'
 import president from '../../../public/President.webp'
 import panaverse from '../../../public/logo5.webp'
 import ziakhan from '../../../public/sir zia.jpg'
+import Instructor from '../components/Instructor'
 
 
 const page = () => {
@@ -56,7 +57,7 @@ const page = () => {
                 </div>
             </section>
 
-
+            <Instructor/>
 
         </div>
 

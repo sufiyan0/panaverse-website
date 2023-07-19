@@ -1,20 +1,21 @@
 'use client'
 import * as React from "react"
 import { Button } from "./ui/button"
+import Link from "next/link"
 
 const data = [
   {
-    id:1,
+    id: 1,
     heading: 'Web 3.0 & Mataverse',
     content: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers. Panaverse DAO is struggling to produce professionals.'
   },
   {
-    id:2,
+    id: 2,
     heading: 'Blockchain',
     content: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers. Panaverse DAO is struggling to produce professionals.'
   },
   {
-    id:3,
+    id: 3,
     heading: 'Typescript',
     content: 'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers. Panaverse DAO is struggling to produce professionals.'
   },
@@ -58,13 +59,16 @@ const Cards = () => {
                 <p>{data.content}</p>
               </CardContent>
               <CardFooter className="flex justify-center items-center mx-auto">
-                <Button>Learn More</Button>
+                <Button >
+                  <Link href='./syllabus'>Learn More </Link>
+                  
+                </Button>
               </CardFooter>
             </Card>
           </div>
         ))}
 
-           
+
       </div>
     </div>
 

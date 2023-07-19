@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import img from '../assets/ambient.webp'
+import Instructor from './Instructor'
 
 
 
@@ -16,7 +17,9 @@ const Aboutus = () => {
                         </h1>
                         <p className="mb-8 leading-relaxed max-w-xl">Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers. Panaverse DAO is struggling to produce professional metaverse developers from Pakistan for the upcoming Era of Internet.</p>
                         <div className="flex justify-center">
-                            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">REad More</button>
+                            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                                <a href="https://www.panaverse.co/ " target="_blank" >Read More</a>
+                            </button>
                         </div>
                     </div>
                     <div className=" lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -31,10 +34,11 @@ const Aboutus = () => {
                     <h2 className='text-xl md:text-4xl font-semibold text-cyan-900 py-3'>Earn While You Learn</h2>
                     <p>Earn While You Learn
                         In this brand-new type of curriculum, students will learn how to make money and
-                         boost exports in the classroom and will begin doing so within six months of the program’s 
-                         beginning. It resembles a cross between a corporate venture and an educational project.</p>
+                        boost exports in the classroom and will begin doing so within six months of the program’s
+                        beginning. It resembles a cross between a corporate venture and an educational project.</p>
                 </div>
             </section>
+           
         </div>
     )
 }
